@@ -1,0 +1,105 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d913d966ac9eec89b5f2899e9b3bcc29") format("truetype"),
+url("./flaticon.woff?d913d966ac9eec89b5f2899e9b3bcc29") format("woff"),
+url("./flaticon.woff2?d913d966ac9eec89b5f2899e9b3bcc29") format("woff2"),
+url("./flaticon.eot?d913d966ac9eec89b5f2899e9b3bcc29#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d913d966ac9eec89b5f2899e9b3bcc29#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "search": "\f101",
+    "excavator": "\f102",
+    "presentation": "\f103",
+    "worker": "\f104",
+    "salary": "\f105",
+    "excavator-1": "\f106",
+    "excavator-2": "\f107",
+    "placeholder": "\f108",
+    "building": "\f109",
+    "worker-1": "\f10a",
+    "left-quote": "\f10b",
+    "delivery-truck": "\f10c",
+    "forklift": "\f10d",
+    "scissor-lift": "\f10e",
+    "generator": "\f10f",
+    "container": "\f110",
+    "tow-truck": "\f111",
+    "dumper-truck": "\f112",
+    "loader": "\f113",
+    "align": "\f114",
+);
+
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-excavator:before {
+    content: map-get($flaticon-map, "excavator");
+}
+.flaticon-presentation:before {
+    content: map-get($flaticon-map, "presentation");
+}
+.flaticon-worker:before {
+    content: map-get($flaticon-map, "worker");
+}
+.flaticon-salary:before {
+    content: map-get($flaticon-map, "salary");
+}
+.flaticon-excavator-1:before {
+    content: map-get($flaticon-map, "excavator-1");
+}
+.flaticon-excavator-2:before {
+    content: map-get($flaticon-map, "excavator-2");
+}
+.flaticon-placeholder:before {
+    content: map-get($flaticon-map, "placeholder");
+}
+.flaticon-building:before {
+    content: map-get($flaticon-map, "building");
+}
+.flaticon-worker-1:before {
+    content: map-get($flaticon-map, "worker-1");
+}
+.flaticon-left-quote:before {
+    content: map-get($flaticon-map, "left-quote");
+}
+.flaticon-delivery-truck:before {
+    content: map-get($flaticon-map, "delivery-truck");
+}
+.flaticon-forklift:before {
+    content: map-get($flaticon-map, "forklift");
+}
+.flaticon-scissor-lift:before {
+    content: map-get($flaticon-map, "scissor-lift");
+}
+.flaticon-generator:before {
+    content: map-get($flaticon-map, "generator");
+}
+.flaticon-container:before {
+    content: map-get($flaticon-map, "container");
+}
+.flaticon-tow-truck:before {
+    content: map-get($flaticon-map, "tow-truck");
+}
+.flaticon-dumper-truck:before {
+    content: map-get($flaticon-map, "dumper-truck");
+}
+.flaticon-loader:before {
+    content: map-get($flaticon-map, "loader");
+}
+.flaticon-align:before {
+    content: map-get($flaticon-map, "align");
+}
