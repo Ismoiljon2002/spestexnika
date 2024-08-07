@@ -65,35 +65,36 @@
                         <nav class="main-menu">
                             <ul>
                                 <li class="menu-item">
-                                    <a href="#about" class="active">Главное</a>
+                                    <a href="#" class="active" data-i18n="home">Главное</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="#products">Продукты</a>
-                                </li>
-                                <!-- <li class="menu-item">
-                                    <a href="categories.html">Категория</a>
-                                </li> -->
-                                <li class="menu-item">
-                                    <a href="#news">Новости</a>
+                                    <a href="#products" data-i18n="products">Продукты</a>
                                 </li>
                                 <li class="menu-item">
-                                    <a href="#contact">Контакты</a>
+                                    <a href="#news" data-i18n="news">Новости</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#contact" data-i18n="contact">Контакты</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div class="navbar-toggler">
-                        <span></span><span></span><span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                     <div class="header-right-nav">
                         <div class="top-right">
                             <ul class="d-flex align-items-center justify-content-end">
                                 <li>
                                     <div class="lang-dropdown">
-                                        <div class="lang"><img src="assets/images/ru.svg" alt="lang"></div>
-                                        <select>
-                                            <option value="01">RU</option>
-                                            <option value="02">UZ</option>
+                                        <div class="lang">
+                                            <img id="langImg" src="assets/images/uz.svg" alt="flag">
+                                        </div>
+                                        <select id="language-selector">
+                                            <option value="ru">RU</option>
+                                            <option value="uz">UZ</option>
                                         </select>
                                     </div>
                                 </li>
@@ -112,18 +113,24 @@
             <div class="single-hero-slider bg_cover" style="background-image: url(assets/images/changeImg/4.jpg);">
                 <div class="container">
                     <div class="hero-content">
-                        <h1 data-aos="fade-up">Постройте свою мечту с нашим строительным оборудованием</h1>
-                        <p data-aos="fade-up" data-aos-delay="50">Высокая производительность и долговечность для
-                            любых строительных задач.</p>
+                        <h1 data-aos="fade-up" data-i18n="home-h1-1">
+                            Постройте свою мечту с нашим строительным оборудованием
+                        </h1>
+                        <p data-aos="fade-up" data-aos-delay="50" data-i18n="home-p-1">
+                            Высокая производительность и долговечность для любых строительных задач.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="single-hero-slider bg_cover" style="background-image: url(assets/images/changeImg/2.jpg);">
                 <div class="container">
                     <div class="hero-content">
-                        <h1>Мы предоставляем лучшее строительное оборудование для вас</h1>
-                        <p>Надежность, производительность и долговечность для успешного выполнения любых
-                            строительных проектов.</p>
+                        <h1 data-aos="fade-up" data-i18n="home-h1-2">
+                            Мы предоставляем лучшее строительное оборудование для вас
+                        </h1>
+                        <p data-aos="fade-up" data-i18n="home-p-2">
+                            Надежность, производительность и долговечность для успешного выполнения любых строительных проектов.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -131,67 +138,14 @@
     </section>
     <!--====== End Hero Section ======-->
 
-    <!--====== Start Counter Section ======-->
-    <!-- <section class="counter-area bg-with-overlay bg_cover pt-130 pb-90"
-        style="background-image: url(assets/images/changeImg/4.jpg);">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 counter-column" data-aos="fade-up">
-                    <div class="counter-item counter-item-one mb-40 text-center">
-                        <div class="icon">
-                            <i class="flaticon-excavator-1"></i>
-                        </div>
-                        <div class="content">
-                            <h2><span class="count">250</span>+</h2>
-                            <h5>Оборудование</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 counter-column" data-aos="fade-up">
-                    <div class="counter-item counter-item-one mb-40 text-center">
-                        <div class="icon">
-                            <i class="flaticon-placeholder"></i>
-                        </div>
-                        <div class="content">
-                            <h2><span class="count">175</span>+</h2>
-                            <h5>Зона покрытия</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 counter-column" data-aos="fade-up">
-                    <div class="counter-item counter-item-one mb-40 text-center">
-                        <div class="icon">
-                            <i class="flaticon-building"></i>
-                        </div>
-                        <div class="content">
-                            <h2><span class="count">596</span>+</h2>
-                            <h5>Завершенные проекты</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 counter-column" data-aos="fade-up">
-                    <div class="counter-item counter-item-one mb-40 text-center">
-                        <div class="icon">
-                            <i class="flaticon-worker-1"></i>
-                        </div>
-                        <div class="content">
-                            <h2><span class="count">1580</span></h2>
-                            <h5>Сотрудники компании</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!--====== End Counter Section ======-->
-
     <!--====== Start Pricing Section ======-->
     <section class="pricing-area pt-90 pb-90" id="products">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="section-title text-center mb-50" data-aos="fade-up">
-                    <span class="sub-title"><span class="sub-bg">Потрясающее</span> Оборудование</span>
-                    <h2 style="width: 600px;">Рекомендуемое Оборудование</h2>
+                    <span class="sub-title"><span class="sub-bg" data-i18n="amazing">Потрясающее</span> <span
+                            data-i18n="equipment">Оборудование</span></span>
+                    <h2 style="width: 600px;" data-i18n="pricing-h2">Рекомендуемое Оборудование</h2>
                 </div>
             </div>
             <div class="pricing-nav-filter mb-30" data-aos="fade-up">
@@ -199,31 +153,31 @@
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="tab" href="#cat1">
                             <img src="./assets/images/pricing/truck.png" alt="trucks" />
-                            Грузовые автомобили
+                            <span data-i18n="trucks">Грузовые автомобили</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#cat2">
                             <img src="./assets/images/pricing/crane.png" alt="cranes" />
-                            Краны
+                            <span data-i18n="cranes">Краны</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#cat3">
                             <img src="./assets/images/pricing/loader.png" alt="loader" />
-                            Вилочные погрузчики
+                            <span data-i18n="forklift-trucks">Вилочные погрузчики</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#cat4">
                             <img src="./assets/images/pricing/excavator.png" alt="excavator" />
-                            Экскаваторы
+                            <span data-i18n="excavators">Экскаваторы</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#cat5">
                             <img src="./assets/images/pricing/asphalt.png" alt="asphalt" />
-                            Дорожные ремонтные
+                            <span data-i18n="road-repairs">Дорожные ремонтные</span>
                         </a>
                     </li>
                 </ul>
@@ -239,8 +193,8 @@
                                             <img src="assets/images/trucks/mikser.png" alt="Mikser image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Автоцементовозы</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="cement-trucks">Автоцементовозы</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -250,8 +204,8 @@
                                             <img src="assets/images/trucks/samosval.png" alt="Truck image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Самосвалы</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 data-i18n="dumb-trucks" class="title">Самосвалы</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -261,8 +215,8 @@
                                             <img src="assets/images/trucks/trailer.png" alt="Trailer image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Тягачи</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="trailers">Тягачи</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -272,8 +226,8 @@
                                             <img src="assets/images/trucks/gazel.png" alt="Trailer image">
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Газели</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="gazels">Газели</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -287,8 +241,8 @@
                                             <img src="assets/images/cranes/avtocrane.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Автовышки</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="avtotowers">Автовышки</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -298,8 +252,8 @@
                                             <img src="assets/images/cranes/avtokran.png" alt="Pricing image">
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Автокраны</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="avtocranes">Автокраны</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -309,8 +263,8 @@
                                             <img src="assets/images/cranes/zoomlion.png" alt="Pricing image">
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Гусеничные краны</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="crawler-cranes">Гусеничные краны</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -320,8 +274,8 @@
                                             <img src="assets/images/cranes/crane.png" alt="Pricing image">
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Башенные краны</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="tower-cranes">Башенные краны</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -331,8 +285,8 @@
                                             <img src="assets/images/cranes/dizel.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Дизельные подъемники</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="lifters">Дизельные подъемники</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -346,8 +300,8 @@
                                             <img src="assets/images/loaders/loader.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Фронтальные погрузчики</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="front-loaders">Фронтальные погрузчики</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -357,8 +311,8 @@
                                             <img src="assets/images/loaders/loader2.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Телескопические погрузчики</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="tele-loader">Телескопические погрузчики</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -368,8 +322,8 @@
                                             <img src="assets/images/loaders/loader3.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Погрузчики вилочные</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="forklift-trucks">Погрузчики вилочные</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -383,8 +337,8 @@
                                             <img src="assets/images/excavators/excavator.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Гусеничные экскаваторы</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="crawler-excavators">Гусеничные экскаваторы</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -394,8 +348,8 @@
                                             <img src="assets/images/excavators/excavator2.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Колесные экскаваторы</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="wheel-excavators">Колесные экскаваторы</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -405,8 +359,8 @@
                                             <img src="assets/images/excavators/mini.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Мини-экскаваторы</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="mini-excavators">Мини-экскаваторы</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -416,8 +370,8 @@
                                             <img src="assets/images/excavators/digger.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Экскаваторы-погрузчики</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="excavator-loader">Экскаваторы-погрузчики</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -431,8 +385,8 @@
                                             <img src="assets/images/roders/avtogreyder.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Автогрейдеры</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="avtograder">Автогрейдеры</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -442,8 +396,8 @@
                                             <img src="assets/images/roders/buldozer.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Бульдозеры</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="buldozers">Бульдозеры</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -453,8 +407,8 @@
                                             <img src="assets/images/roders/kat.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Катки</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="katkas">Катки</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -464,8 +418,8 @@
                                             <img src="assets/images/roders/kompressor.png" alt="Pricing image" />
                                         </div>
                                         <div class="pricing-info">
-                                            <h4 class="title">Компрессоры</h4>
-                                            <h5>По договоренности</h5>
+                                            <h4 class="title" data-i18n="compressors">Компрессоры</h4>
+                                            <h5 data-i18n="agreement">По договоренности</h5>
                                         </div>
                                     </a>
                                 </div>
@@ -482,8 +436,9 @@
     <section class="testimonial-area light-bg pt-60 pb-60">
         <div class="container">
             <div class="section-title mb-50 text-center" data-aos="fade-up">
-                <span class="sub-title"><span class="sub-bg">Отзывы</span> Клиентов</span>
-                <h2>Что говорят о нас наши прекрасные клиенты</h2>
+                <span class="sub-title"><span class="sub-bg" data-i18n="testimonials">Отзывы</span> <span
+                        data-i18n="clients'">Клиентов</span></span>
+                <h2 data-i18n="testimonial-h2">Что говорят о нас наши прекрасные клиенты</h2>
             </div>
             <div class="row testimonial-slider-one">
                 <div class="col-lg-4" data-aos="fade-up">
@@ -492,9 +447,13 @@
                             <div class="quote">
                                 <i class="flaticon-left-quote"></i>
                             </div>
-                            <p>Renowk предоставила нам отличную спецтехнику для строительства. Оборудование надежное и
-                                высокопроизводительное, что позволило нам завершить проект в срок.</p>
-                            <h5>Mohona Clitar , <span class="location">UZB</span></h5>
+                            <p data-i18n="feedback-1">Мы доверяем этой компании в аренде тяжелой техники в течение
+                                последних трех лет, и мы очень довольны ее обслуживанием.
+                                Качество их оборудования на высшем уровне, а их поддержка клиентов не имеет себе равных.
+                                От кранов до экскаваторов - у
+                                них есть все необходимое для эффективного и безопасного выполнения работ. Рекомендую!
+                            </p>
+                            <h5>Diyorbek Usmanov</h5>
                         </div>
                     </div>
                 </div>
@@ -504,9 +463,14 @@
                             <div class="quote">
                                 <i class="flaticon-left-quote"></i>
                             </div>
-                            <p>Renowk предоставила нам отличную спецтехнику для строительства. Оборудование надежное и
-                                высокопроизводительное, что позволило нам завершить проект в срок.</p>
-                            <h5>Tomas Zinks , <span class="location">UZB</span></h5>
+                            <p data-i18n="feedback-2">На протяжении многих лет я работал с несколькими компаниями по
+                                аренде, но эта компания выделяется своим
+                                профессионализмом и надежностью. Погрузчики и компрессоры были в отличном состоянии, а
+                                доставка
+                                была произведена точно в срок. Их команда всегда готова прийти на помощь и обеспечить
+                                бесперебойную работу. Настоятельно
+                                рекомендую!</p>
+                            <h5>Pyotr Ivanov</h5>
                         </div>
                     </div>
                 </div>
@@ -516,9 +480,12 @@
                             <div class="quote">
                                 <i class="flaticon-left-quote"></i>
                             </div>
-                            <p>Renowk предоставила нам отличную спецтехнику для строительства. Оборудование надежное и
-                                высокопроизводительное, что позволило нам завершить проект в срок.</p>
-                            <h5>Cristiano Ruudo , <span class="location">RU</span></h5>
+                            <p data-i18n="feedback-3">Когда речь заходит о тяжелой технике, простой невозможен. Именно
+                                поэтому мы доверяем SPES-TEXNIKA все наши услуги по аренде. Обширный парк самосвалов и
+                                экскаваторов компании позволяет нам всегда получать необходимое оборудование в нужное
+                                время. Их быстрая реакция и гибкие условия аренды делают их идеальным выбором для любого
+                                проекта.</p>
+                            <h5>Yuri Aleksandrov</h5>
                         </div>
                     </div>
                 </div>
@@ -528,9 +495,12 @@
                             <div class="quote">
                                 <i class="flaticon-left-quote"></i>
                             </div>
-                            <p>Renowk предоставила нам отличную спецтехнику для строительства. Оборудование надежное и
-                                высокопроизводительное, что позволило нам завершить проект в срок.</p>
-                            <h5>Tomas Zinks , <span class="location">RUё</span></h5>
+                            <p data-i18n="feedback-4">Мы уже более года пользуемся услугами компании SPES-TEXNIKA для
+                                аренды оборудования, и они неизменно предоставляют отличный сервис. Краны и компрессоры
+                                были в хорошем состоянии и работали безупречно. Их команда обладает знаниями и всегда
+                                делает все возможное, чтобы обеспечить бесперебойную работу наших проектов. Мы бы никому
+                                другому не доверили наше оборудование.</p>
+                            <h5>Mikhail</h5>
                         </div>
                     </div>
                 </div>
@@ -543,7 +513,7 @@
     <section class="brand-section pt-60 pb-60">
         <div class="container">
             <div class="section-title text-center mb-50">
-                <h2>Транспортный парк состоит из спецтехники мировых брендов</h2>
+                <h2 data-i18n="brand-h2">Транспортный парк состоит из спецтехники мировых брендов</h2>
             </div>
             <div class="brand-wrapper">
                 <img src="assets/images/brands/gehl.png" alt="Gehl">
@@ -568,8 +538,7 @@
     <section class="about-area pt-30" id="about">
         <div class="container">
             <div class="section-title mb-40 text-center">
-                <span class="sub-title"><span class="sub-bg">Кто</span> Мы?</span>
-                <h2 class="mb-0">Прокат спецтехники в Ташкенте</h2>
+                <h2 class="mb-0" data-i18n="about-h2">Прокат спецтехники в Ташкенте</h2>
             </div>
             <div class="row gx-xl-5">
                 <div class="col-xl-6" data-aos="fade-up">
@@ -581,8 +550,8 @@
                 </div>
                 <div class="col-xl-6" data-aos="fade-up">
                     <div class="about-content-box about-content-box-one mb-50">
-    
-                        <p>
+
+                        <p data-i18n="about-p">
                             В Ташкенте аренда специализированного оборудования является важнейшей услугой, которая
                             упрощает выполнение сложных
                             проектов и ускоряет строительные процессы, обеспечивая при этом высочайший результат.
@@ -594,11 +563,12 @@
                             специализированного оборудования.
                         </p>
                         <div class="block-quote mt-25">
-                            <h5>“ Пожалуйста, обратите внимание на наши специальные предложения и скидки! Свяжитесь с
-                                нами сегодня и получите консультацию от наших экспертов “</h5>
+                            <h5>“ <span data-i18n="about-block-quote">Пожалуйста, обратите внимание на наши специальные
+                                    предложения и скидки! Свяжитесь с нами сегодня и получите консультацию
+                                    от наших экспертов</span> “</h5>
                         </div>
-                        <a href="tel:+998999999999" target="_self" title="Свяжитесь с нами" class="main-btn">Свяжитесь с
-                            нами</a>
+                        <a href="tel:+998999999999" target="_self" title="Свяжитесь с нами" class="main-btn"
+                            data-i18n="contact-us">Свяжитесь с нами</a>
                     </div>
                 </div>
             </div>
@@ -612,8 +582,7 @@
             <div class="row align-items-end">
                 <div class="col-lg-6" data-aos="fade-up">
                     <div class="section-title mb-50">
-                        <span class="sub-title"><span class="sub-bg">Последние</span> Новости</span>
-                        <h2>Последние новости и обновления</h2>
+                        <h2 data-i18n="news-h2">Последние новости и обновления</h2>
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-up">
@@ -626,11 +595,12 @@
                         <div class="post-thumbnail">
                             <a href="blogs.html" title="Blog Image" target="_self"><img
                                     src="assets/images/changeImg/2.jpg" alt="Blog Image"></a>
-                            <a href="blogs.html" class="cat-btn" title="Excavator" target="_self">Экскаватор</a>
+                            <a href="blogs.html" class="cat-btn" title="Excavator" target="_self"
+                                data-i18n="Excavator">Экскаватор</a>
                         </div>
                         <div class="entry-content">
-                            <h3 class="title"><a href="blogs.html">Лучший прокат оборудования для
-                                    твой следующий проект</a></h3>
+                            <h3 class="title"><a href="blogs.html">Лучший прокат оборудования для твой следующий
+                                    проект</a></h3>
                             <div class="post-meta">
                                 <ul>
                                     <li><span><i class="fas fa-user"></i>Сообщение от <a href="">Admin</a></span></li>
@@ -718,19 +688,19 @@
     <section class="faq pt-60 pb-60" id="faq">
         <div class="container">
             <div class="section-title text-center mb-50">
-                <h2>Часто задаваемые вопросы</h2>
+                <h2 data-i18n="faq-h2">Часто задаваемые вопросы</h2>
             </div>
             <div id="accordion">
                 <div class="card" data-aos="fade-up">
                     <div class="card-header" id="headingOne">
                         <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                            aria-controls="collapseOne">
+                            aria-controls="collapseOne" data-i18n="faq1">
                             Можно ли заказать спецтехнику на выходных ?
                         </h5>
                     </div>
 
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body" data-i18n="faq-answer-1">
                             Да, можно. Мы принимаем и выполняем заказы 24/7.
                         </div>
                     </div>
@@ -738,12 +708,13 @@
                 <div class="card" data-aos="fade-up">
                     <div class="card-header" id="headingTwo">
                         <h5 class="mb-0" class="btn btn-link collapsed" data-toggle="collapse"
-                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                            data-i18n="faq2">
                             Какой минимальный срок оказания услуг по спецтехнике ?
                         </h5>
                     </div>
                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body" data-i18n="faq-answer-2">
                             Минимальный срок аренды составляет от 30 часов.
                         </div>
                     </div>
@@ -751,17 +722,19 @@
                 <div class="card" data-aos="fade-up">
                     <div class="card-header" id="headingThree">
                         <h5 class="mb-0" class="btn btn-link collapsed" data-toggle="collapse"
-                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                            data-i18n="faq3">
                             Какие виды спецтехники есть у вас ?
                         </h5>
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">
-                            В нашем автопарке имеется:
+                            <span data-i18n="faq-answer-3">В нашем автопарке имеется:</span>
                             <ul>
-                                <li>Манипуляторы грузоподъемностью до 7 тонн</li>
-                                <li>Колесные и гусеничные экскаваторы</li>
-                                <li>Фронтальные и вилочные(телескопические) погрузчики и другие</li>
+                                <li data-i18n="faq-answer-3-1">Манипуляторы грузоподъемностью до 7 тонн</li>
+                                <li data-i18n="faq-answer-3-2">Колесные и гусеничные экскаваторы</li>
+                                <li data-i18n="faq-answer-3-3">Фронтальные и вилочные(телескопические) погрузчики и
+                                    другие</li>
                             </ul>
                         </div>
                     </div>
@@ -769,12 +742,13 @@
                 <div class="card" data-aos="fade-up">
                     <div class="card-header" id="headingFour">
                         <h5 class="mb-0" class="btn btn-link collapsed" data-toggle="collapse"
-                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                            data-i18n="faq4">
                             Форма оплата?
                         </h5>
                     </div>
                     <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                        <div class="card-body">
+                        <div class="card-body" data-i18n="faq-answer-4">
                             Форма оплата любая, в том числе через мобильное приложения.
                         </div>
                     </div>
@@ -788,7 +762,7 @@
     <section class="partners" id="partners">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Наши партнёры</h2>
+                <h2 data-i18n="partner-h2">Наши партнёры</h2>
             </div>
             <div class="partners-wrapper">
                 <img src="./assets/images/partners/ezgu.png" alt="Ezgu">
@@ -817,13 +791,13 @@
                     <div class="col-lg-8">
                         <div class="newsletter-content-box">
                             <div class="section-title text-center mb-30">
-                                <h2>Подписывайтесь на нашу новостную рассылку</h2>
+                                <h2 data-i18n="contact-h2">Заказать звонок</h2>
                             </div>
                             <form class="newsletter-form">
                                 <div class="form_group">
-                                    <input type="email" class="form_control"
-                                        placeholder="Введите адрес электронной почты" name="email" required>
-                                    <button class="newsletter-btn">Подпишись сейчас</button>
+                                    <input type="tel" class="form_control" placeholder="Your phone number" name="tel"
+                                        required>
+                                    <button class="newsletter-btn" data-i18n="call">Перезвони мне</button>
                                 </div>
                             </form>
                         </div>
@@ -843,10 +817,10 @@
                         <div class="widget about-widget mb-40">
                             <a href="index.html" class="brand-logo" style="color: #fff;"><img
                                     src="assets/images/logo-img.png" alt="Footer Logo"> SPES-TEXNIKA </a>
-                            <p>Надежность, производительность
-                                и долговечность для успешного выполнения любых строительных проектов.</p>
+                            <p data-i18n="footer-p">Надежность, производительность и долговечность для успешного
+                                выполнения любых строительных проектов.</p>
                             <div class="social-box">
-                                <h5>Подписывайтесь на нас</h5>
+                                <h5 data-i18n="subscribe">Подписывайтесь на нас</h5>
                                 <ul class="social-link">
                                     <li><a href="https://www.facebook.com" target="_blank"><i
                                                 class="fab fa-facebook-f"></i></a></li>
@@ -862,18 +836,18 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="widget footer-widget-nav mb-40">
-                            <h4 class="widget-title">Полезная ссылка</h4>
+                            <h4 class="widget-title" data-i18n="links">Полезная ссылка</h4>
                             <ul class="widget-nav">
-                                <li><a href="#products">Продукты</a></li>
+                                <li><a href="#products" data-i18n="products">Продукты</a></li>
                                 <!-- <li><a href="categories.html">Категория</a></li> -->
-                                <li><a href="#news">Новости</a></li>
-                                <li><a href="contact.html">Контакты</a></li>
+                                <li><a href="#news" data-i18n="news">Новости</a></li>
+                                <li><a href="contact.html" data-i18n="contact">Контакты</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="widget contact-info-widget mb-40">
-                            <h4 class="widget-title">Контактная информация</h4>
+                            <h4 class="widget-title" data-i18n="contact-info">Контактная информация</h4>
                             <ul class="contact-info-list">
                                 <li>
                                     <div class="icon">
@@ -946,6 +920,7 @@
     <script src="assets/js/aos.min.js"></script>
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+    <script src="assets/translations/i18n.js"></script>
 </body>
 
 </html>

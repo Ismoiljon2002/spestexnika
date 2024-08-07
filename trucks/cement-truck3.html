@@ -57,29 +57,49 @@
             <div class="container-fluid pl-0 pr-0">
                 <div class="primary-menu d-flex align-items-center justify-content-between">
                     <div class="site-branding">
-                        <a href="index.html" class="brand-logo" target="_self" title="Brand Logo">
-                            <img src="../assets/images/logo-img.png" alt="Brand Logo" />
-                            SPES-TEXNIKA
-                        </a>
+                        <a href="../index.html" class="brand-logo" target="_self" title="Brand Logo"><img
+                                src="../assets/images/logo-img.png" alt="Brand Logo">SPES-TEXNIKA</a>
+                    </div>
+                    <div class="nav-menu">
+                        <div class="navbar-close"><i class="fal fa-times"></i></div>
+                        <nav class="main-menu">
+                            <ul>
+                                <li class="menu-item">
+                                    <a href="../index.html" class="active" data-i18n="home">Главное</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="../index.html#products" data-i18n="products">Продукты</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="../index.html#news" data-i18n="news">Новости</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="../index.html#contact" data-i18n="contact">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navbar-toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
                     <div class="header-right-nav">
-                        <ul class="d-flex align-items-center">
-                            <li class="menu-item">
-                                <a href="tel:+998999999999">
-                                    <i class="fas fa-phone"></i>
-                                    +998 (99) 999 99 99
-                                </a>
-                            </li>
-                            <li class="menu-item">
-                                <div class="lang-dropdown">
-                                    <div class="lang"><img src="../assets/images/ru.svg" alt="lang"></div>
-                                    <select id="languageSelect">
-                                        <option value="#">RU</option>
-                                        <option value="../uz/index.html">UZ</option>
-                                    </select>
-                                </div>
-                            </li>
-                        </ul>
+                        <div class="top-right">
+                            <ul class="d-flex align-items-center justify-content-end">
+                                <li>
+                                    <div class="lang-dropdown">
+                                        <div class="lang">
+                                            <img id="langImg" src="assets/images/uz.svg" alt="flag">
+                                        </div>
+                                        <select id="language-selector">
+                                            <option value="ru">RU</option>
+                                            <option value="uz">UZ</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -338,6 +358,8 @@
     <script src="../assets/js/aos.min.js"></script>
     <!--====== Main js ======-->
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/translations/i18n.js"></script>
+
 </body>
 
 </html>
