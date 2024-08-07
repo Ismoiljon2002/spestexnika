@@ -2,6 +2,7 @@
     .container {
         min-width: 85%;
     }
+
     .gx-xl-5 {
         margin-left: -30px;
         margin-right: -30px;
@@ -14,6 +15,9 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1599px) {
+    .pricing-item {
+        flex: 1 1 214px;
+    }
 
     header .header-navigation .primary-menu,
     header .container-fluid {
@@ -47,13 +51,27 @@
     }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
+    .equipment-details-section .content-table .btn {
+        width: 100% !important;
+        margin: 10px 0 0;
+    }
+
+    .pricing-item {
+        flex: 1 1 300px;
+    }
+
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+
     .section-title h2 {
         font-size: 35px;
     }
 
     .single-hero-slider {
-        padding: 190px 0 160px;
+        padding: 160px 0;
     }
 
     .single-hero-slider .hero-search-wrapper {
@@ -82,6 +100,10 @@
 
     .features-item-two {
         padding: 50px 30px;
+    }
+
+    .pricing-nav-filter .nav-tabs {
+        width: 1002px;
     }
 
     .pricing-item-two .pricing-info .pricing-body .price-option span.span-btn {
@@ -159,6 +181,22 @@
 }
 
 @media only screen and (max-width: 991px) {
+    .equipment-details-section {
+        padding-top: 30px;
+    }
+
+    .equipment-gallery-box {
+        flex-wrap: wrap;
+    }
+
+    .equipment-slider-warp,
+    .equipment-gallery-box .content-box {
+        width: 100%;
+    }
+
+    .equipment-gallery-slider .single-gallery-itam {
+        height: 510px;
+    }
 
     .header-area-one .header-top-bar .top-right,
     .header-area-one .header-top-bar .top-left {
@@ -310,14 +348,30 @@
 }
 
 @media (max-width: 767px) {
+    .equipment-gallery-slider .single-gallery-itam {
+        height: 410px;
+    }
+
+    .pricing-item {
+        max-width: 400px;
+    }
+
+    .faq .card-header {
+        padding: 20px !important;
+    }
+
+    .faq .card-header h5 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .faq .card-body {
+        padding: 20px 40px !important;
+    }
 
     .header-area-one .primary-menu:before,
     .header-area-one .primary-menu:after {
         display: none;
-    }
-
-    .single-hero-slider {
-        padding: 85px 0 90px;
     }
 
     .hero-wrapper-two {
@@ -530,6 +584,9 @@
         margin-left: 5px;
         margin-right: 5px;
     }
+        .equipment-gallery-slider .single-gallery-itam {
+            height: 330px;
+        }
 }
 
 @media only screen and (min-width: 450px) and (max-width: 767px) {

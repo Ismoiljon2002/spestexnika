@@ -1242,6 +1242,7 @@ header .container-fluid {
 .single-hero-slider .hero-content p {
 	color: var(--white);
 	padding: 0;
+	font-size: 20px;
 	margin-bottom: 20px;
 }
 
@@ -4690,6 +4691,10 @@ ul.rating li span {
 	justify-content: center;
 	align-items: center;
 	height: 600px;
+}
+
+.detail-card-wrapper {
+	flex-wrap: wrap;
 }
 
 .detail-card {
