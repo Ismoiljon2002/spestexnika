@@ -4813,3 +4813,45 @@ ul.rating li span {
 .equipment-details-section .content-box h4 {
 	margin: 10px 0 20px;
 }
+
+.map {
+	position: relative;
+	height: 450px;
+	margin-bottom: 70px;
+}
+
+.map .map-details {
+	position: absolute;
+	z-index: 2;
+	top: 100px;
+	right: 7.5%;
+	width: 380px;
+	height: 250px;
+	background-color: #fff;
+	padding: 30px;
+	box-shadow: 0 0 20px #00000048;
+	border-radius: 8px;
+}
+
+.map .map-details h3 {
+	font-size: 30px;
+	padding: 0 0 10px;
+}
+
+.map i {
+	color: var(--primary-color);
+	margin: 5px;
+}
+
+.map li {
+	font-size: 18px;
+	margin: 5px;
+}
+
+.map li:hover {
+	color: #000;
+}
+
+.map iframe {
+	width: 100%;
+}

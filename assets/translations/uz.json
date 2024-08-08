@@ -7,7 +7,7 @@
     "home-h1-2": "Biz siz uchun eng yaxshi qurilish uskunalarini taqdim etamiz",
     "home-p-1": "Har qanday qurilish vazifalari uchun yuqori mahsuldorlik va chidamlilik.",
     "home-p-2": "Har qanday qurilish loyihalarini muvaffaqiyatli bajarish uchun ishonchlilik, ishlash va chidamlilik.",
-    "pricing-h2": "Taklif qilingan qurilmalar",
+    "pricing-h2": "Toshkentda maxsus texnika ijarasi",
     "amazing": "Ajoyib",
     "equipment": "Qurilmalar",
     "trucks": "Yuk mashinalari",
@@ -44,7 +44,7 @@
     "feedback-3": "Og'ir texnika haqida gap ketganda, oddiy usul mumkin emas. Shuning uchun biz SPES-TEXNIKAga barcha ijara xizmatlarimizga ishonamiz. Kompaniyaning keng ko'lamli samosvallari va ekskavatorlari parki bizga har doim kerakli jihozlarni kerakli vaqtda olish imkonini beradi. Ularning tezkor reaktsiyasi va moslashuvchan ijara shartlari ularni har qanday loyiha uchun ideal tanlovga aylantiradi.",
     "feedback-4": "Biz SPES-TEXNIKAdan bir yildan ortiq vaqt davomida uskunalarni ijaraga olish uchun foydalanmoqdamiz va ular doimo mukammal xizmatni taqdim etadilar. Biz ijaraga olgan kranlar va kompressorlar yaxshi holatda edi va benuqson ishladi. Ularning jamoasi bilimga ega va har doim loyihalarimiz muammosiz ishlashini ta'minlash uchun qo'lidan kelganini qiladi. Biz uskunamizni boshqa hech kimga ishonib topshirmagan bo'lardik.",
     "brand-h2": "Transport parki jahon brendlarining maxsus jihozlaridan iborat",
-    "about-h2": "Toshkentda maxsus texnika ijarasi",
+    "about-h2": "Biz Siz uchun eng yaxshisini beramiz",
     "about-p": "Toshkentda ixtisoslashtirilgan uskunalarni ijaraga olish murakkab loyihalarni amalga oshirishni soddalashtiradigan va qurilish jarayonlarini tezlashtiradigan, shu bilan birga eng yuqori natijani ta'minlaydigan eng muhim xizmatdir. Bunday uskunani sotib olish muammosi bir nechta jihozlarni sotib olish bilan bog'liq yuqori xarajatlar va uzoq muddatli qoplash muddatlarini hisobga olgan holda qiyin bo'lishi mumkin. Yaxshiyamki, bizning kompaniyamiz tejamkor alternativani taklif qiladi: ixtisoslashtirilgan uskunalarni ijaraga berish xizmatlari.",
     "about-block-quote": "Iltimos, bizning maxsus takliflarimiz va chegirmalarimizga e'tibor bering! Bugun biz bilan bog'laning va mutaxassislarimizdan maslahat oling",
     "contact-us": "Biz bilan bog'laning",
@@ -98,5 +98,6 @@
     "feature5": "Texnik qo'llovlar",
     "feature6": "Kerakli paytdagi servis xizmati",
     "rent-avtocranes": "Avtokranlar ijarasi",
-    "weight": "Og'irligi"
+    "weight": "Og'irligi",
+    "contacts": "Aloqa"
 }
