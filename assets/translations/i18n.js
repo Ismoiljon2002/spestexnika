@@ -10,7 +10,6 @@ $(document).ready(function () {
         $.getJSON(`${basePath}../../assets/translations/${language}.json`)
             .done(function (data) {
                 translations = data;
-                console.log(data, 'data')
                 applyTranslations();
             })
             .fail(function (jqXHR, textStatus, errorThrown) {
