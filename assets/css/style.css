@@ -4855,3 +4855,120 @@ ul.rating li span {
 .map iframe {
 	width: 100%;
 }
+
+/* Base styling for the container */
+.social-container {
+	position: relative;
+	display: inline-block;
+	left: 80%;
+}
+
+/* Styling for the profile image */
+.profile-img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	transition: transform 0.2s ease;
+	animation: raindrop-shadow 3.5s ease-in-out infinite;
+}
+
+@keyframes raindrop-shadow {
+	0% {
+		box-shadow: 0 0 0 2px var(--primary-color);
+	}
+
+	1% {
+		box-shadow: 0 0 6px 6px var(--primary-color);
+	}
+
+	10% {
+		box-shadow: 0 0 10px 6px var(--primary-color);
+	}
+
+	80% {
+		box-shadow: 0 0 30px rgba(251, 162, 28, 0.3);
+	}
+
+	90% {
+		box-shadow: 0 0 30px rgba(251, 162, 28, 0.0);
+	}
+}
+
+.social-container .social-link {
+	width: 140px;
+	color: #fff !important;
+	margin: 5px 0;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateX(10px);
+	transition: 0.3s ease;
+}
+
+.social-container:hover .social-link {
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.social-container:hover .social-link:nth-child(1) {
+	opacity: 1;
+	transition-delay: 0.4s;
+}
+
+.social-container:hover .social-link:nth-child(2) {
+	opacity: 1;
+	transition-delay: 0.2s;
+}
+
+.social-container:hover .social-link:nth-child(3) {
+	opacity: 1;
+	transition-delay: 0s;
+}
+
+/* Styling for the social links container */
+.social-container .social-links {
+	position: absolute;
+	padding: 7px 10px;
+	font-size: 18px;
+	bottom: 100%;
+	right: 0;
+	text-align: right;
+	transition: opacity 0.15s, transform 0.4s;
+}
+
+.social-container .social-link i {
+	border-radius: 50%;
+	padding: 8px;
+}
+
+.social-container .social-link#telegram span,
+.social-container .social-link .fa-telegram {
+	background-color: #0e76a8;
+}
+
+.social-container .social-link#instagram span,
+.social-container .social-link .fa-instagram {
+	background: linear-gradient(50deg, rgb(254, 218, 117) 5%, rgb(214, 41, 118) 50%, rgb(150, 47, 191) 100%);
+}
+
+.social-container .social-link#phone span,
+.social-container .social-link .fa-phone {
+	background-color: #00900c;
+}
+
+.social-container .social-link span {
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+
+.top-right {
+	margin: 0 !important;
+}
+
+.equipment-gallery-slider .single-gallery-itam a {
+	width: 100%;
+}
+
+.blog-post-item-one .post-thumbnail img {
+	height: 320px;
+}
